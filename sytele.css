@@ -3,12 +3,16 @@
     padding: 0%;
     max-height:720px;
 }
+.logobox{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 .logo{
-    text-align: center;
+    align-items: center;
     border-radius:10%;
-    margin: 1.5%;
-    height: 5px;
-    width: 5px;
+    height: 30%;
+    width: 30%;
 }
 .titulo{
     padding:1.5%;
@@ -17,6 +21,15 @@
     color: #d5d8df; 
 }
 .resumen{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+     
+}
+.text{
+    width: 50%;
+    height: 30%;
+    justify-content: center;
     text-align: center;
     font-size: xx-large;
     color: #d5d8df; 
@@ -29,9 +42,20 @@
 }
 button{
     margin:0.5%;
-    height:50px;
+    height:100px;
     width: 95%;
     background-color: #182b50;
     color: aliceblue;
-    font-size: medium;
+    font-size: large;
+}
+a{
+    color: #d5d8df;
+    text-decoration: none;
+}
+a:active{
+    color: black;
+    background-color: white;
+}
+a:visited{
+    color: aliceblue;
 }
