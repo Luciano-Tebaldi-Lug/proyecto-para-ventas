@@ -52,9 +52,8 @@ a{
     color: #d5d8df;
     text-decoration: none;
 }
-a:active{
-    color: black;
-    background-color: white;
+button:hover{
+     background-color: rgb(34, 71, 142);
 }
 a:visited{
     color: aliceblue;
