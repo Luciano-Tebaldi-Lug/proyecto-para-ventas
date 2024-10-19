@@ -2,6 +2,8 @@
     margin: 0%;
     padding: 0%;
     max-height:720px;
+    
+    font-family:'Roboto';
 }
 .logobox{
     width: 100%;
@@ -13,6 +15,8 @@
     border-radius:10%;
     height: 30%;
     width: 30%;
+    min-height: 140px;
+    min-height: 140px;
 }
 .titulo{
     padding:1.5%;
@@ -33,27 +37,29 @@
     text-align: center;
     font-size: xx-large;
     color: #d5d8df; 
+    min-width: 300px;
+    min-height: 50px;
 }
 .botonera{
-    margin-top: 5px;
-    text-align: center;
-    align-content: center;
-    padding: 5%;
-}
-button{
-    margin:0.5%;
-    height:100px;
-    width: 95%;
-    background-color: #182b50;
-    color: aliceblue;
-    font-size: large;
+    justify-content: center;
+    padding: 1%;
+    display: grid;
+    grid-template-columns: 95%;
+    grid-template-rows: repeat(2, 200%);
+    grid-column-gap: 0px;
+    grid-row-gap: 20%;
+    
 }
 a{
-    color: #d5d8df;
+    background-color: #182b50;
+    color: aliceblue;
+    font-size: x-large;
     text-decoration: none;
+    text-align: justify;
 }
-button:hover{
-     background-color: rgb(34, 71, 142);
+
+a:hover{
+    color: black;
 }
 a:visited{
     color: aliceblue;
