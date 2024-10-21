@@ -42,27 +42,35 @@
 }
 .botonera{
     justify-content: center;
-    padding: 1%;
+    padding: 2%;
     display: grid;
-    grid-template-columns: 95%;
-    grid-template-rows: repeat(2, 200%);
-    grid-column-gap: 0px;
-    grid-row-gap: 20%;
-    
 }
 a{
     background-color: #182b50;
     color: aliceblue;
-    font-size: x-large;
     text-decoration: none;
     text-align: center;
     border-radius: 15px;
-
+    font-size: 50px;
+    padding: 1%;
+    margin: 5px;
 }
 
 a:hover{
     color: black;
 }
-a:visited{
-    color: aliceblue;
+
+@media (max-width: 480px) {
+    .text {
+        font-size: 24px; /* Tamaño del texto para móviles */
+    }
+    a{
+        font-size: 20px;
+        padding: 5%;
+    }
+    .logo{
+        width: 300px;
+        
+    }
 }
+
